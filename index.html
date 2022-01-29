@@ -5,16 +5,16 @@
     <title>First page</title>
     <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="images/logo.png" type="images/logo.png">
   </head>
   <body>
     <img id="logo" src="images\logo.png" alt="LOGO" style="width: 100px">
     <!-- 4 heading levels: -->
 <h1>Homepage</h1>
 <img id="peepos"src="images\peepolove.png" alt="pepo1" style="width: 100px">
-<h4>Cosa è questo sito web?</h4>
+<h4>Perchè questo sito web?</h4>
 
-<p>Questo sito web è una prova. In continuo aggiornamento.
+<p>Questo sito è un test in continuo aggiornamento.
 </p>
 <p> Cosa verrà implementato? </p>
 <ul>
@@ -25,7 +25,29 @@
 </ul>
 
 <p><a href="http://turnyournameintoaface.com/">Questo</a> è un link cliccabile che riporta a un sito web carino.</p>
-<button>Cambia nome</button>
+<button id="changename">Cambia nome</button>
 <script src="scripts/main.js"></script>
+
+
+<div><table id="tab1">
+  <tbody>
+    <tr class="riga1">
+      <th>Nome</th>
+      <th>Cognome</th>
+      <th>Età</th>
+    </tr>
+    <tr class="riga2">
+      <th><input id="nome"> </th>
+      <th><input id="cognome"> </th>
+      <th><input id="eta"> </th>
+    </tr>
+  </tbody>
+</table>
+<button id="bPrint">Stampa</button>
+</div>
+
+
+
   </body>
+
 </html>

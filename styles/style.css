@@ -1,20 +1,13 @@
 html {
   font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
-}
-
-h1 {
-  font-size: 60px;
-  text-align: center;
+  background-color: #686363;
 }
 
 p, li {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 2;
   letter-spacing: 1px;
-}
-html {
-  background-color: #686363;
 }
 
 body {
@@ -26,6 +19,8 @@ body {
 }
 
 h1 {
+  font-size: 60px;
+  text-align: center;
   margin: 0;
   padding: 20px 0;
   color: black;
@@ -34,4 +29,8 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
+}
+
+#tab1 {
+  width: 50%;
 }
